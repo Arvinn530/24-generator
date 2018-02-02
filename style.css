@@ -1,0 +1,98 @@
+body {
+	font-family: montserrat;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+.output-container {
+	width: 100vw;
+	height: 100vh;
+	background-color: black;
+	opacity: .95;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.input-container {
+	margin-top: 20vh;
+	display: flex;
+	flex-direction: row;
+}
+
+.input-container > div {
+	margin-bottom: 10px;
+}
+
+input {
+	/*font-family: montserrat;*/
+	font-size: 1.2em;
+	text-align: center;
+	vertical-align: middle;
+	color: white;
+	outline: 0;
+	border: 0;
+	padding: 0px 0px;
+	background-color: transparent;
+	width: 40px;
+	height: 35px;
+	margin: 0px 2px;
+}
+
+input:focus {
+	font-size: 1.7em;
+}
+
+input[name="input-0"]:focus + .input-underline {
+	background-color: yellow;
+	width: 70%;
+}
+
+input[name="input-1"]:focus + .input-underline {
+	background-color: yellow;
+	width: 70%;
+} 
+
+input[name="input-2"]:focus + .input-underline {
+	background-color: yellow;
+	width: 70%;
+} 
+
+input[name="input-3"]:focus + .input-underline {
+	background-color: yellow;
+	width: 70%;
+}  
+
+.input-underline {
+	position: relative;
+	left: 50%;
+	width: 40%;
+	height: 1px;
+	background-color: gray;
+	transform: translateX(-50%);
+}
+
+.output {
+	text-align: center;
+	width: 120px;
+	color: white;
+}
+
+.execute {
+	text-align: center;
+	vertical-align: middle;
+	width: 100px;
+	height: 40px;
+	background-color: black;
+	color: white;
+}
+
+.end-slowly-1 {
+	transition-duration: .2s;
+	transition-timing-function: ease-out;
+}
+
+.end-slowly-2 {
+	transition-duration: .1s;
+	transition-timing-function: ease-out;
+}
