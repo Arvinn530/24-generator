@@ -88,6 +88,7 @@ input[name="input-3"]:focus + .input-underline {
 	height: 40px;
 	background-color: black;
 	color: white;
+	cursor: pointer;
 }
 
 .end-slowly-1 {
