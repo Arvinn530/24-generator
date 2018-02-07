@@ -5,7 +5,7 @@ var lst = [
 	["abcd", "adcb", "bdac", "bdca"], 
 	["abcd", "abdc", "acbd", "acdb", "adcb", "adbc", "bcad", "bcda", "bdac", "bdca", "cdab", "cdba"]
 ];
-var result = 2048;
+var result = 24;
 var outputObject = document.getElementsByClassName("output")[0];
 var execute = document.getElementsByClassName("execute")[0];
 var inputLst = document.getElementsByTagName("input");
